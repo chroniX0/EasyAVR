@@ -56,7 +56,7 @@ SCANCODE_MOUSEYU           Move mouse pointer up
                            (Double-tap the mouse keys to move the cursor faster.
                            Triple-tap for even more speed, and so on.)
 
-SCANCODE_BASS_BOOST        Toggle bass boost in Windows
+SCANCODE_FAST_FWD          Fast forward or Next Track in Mac
 SCANCODE_VOL_INC           Increase main volume in Windows
 SCANCODE_VOL_DEC           Decrease main volume in Windows
 SCANCODE_MUTE              Mute main volume in Windows
@@ -69,7 +69,7 @@ SCANCODE_BACK              Navigate backward in Windows
 SCANCODE_MEDIA             Open system media player in Windows
 SCANCODE_MAIL              Open system mail reader in Windows
 SCANCODE_CALC              Open calculator in Windows
-SCANCODE_MYCOMP            Open My Computer in Windows
+SCANCODE_REWIND            Rewind or Previous Track in Mac
 SCANCODE_SEARCH            Open system search in Windows
 SCANCODE_BROWSER           Open system web browser in Windows
 
