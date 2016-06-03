@@ -4,4 +4,4 @@
 @echo Compiling...
 
 @cd firmware
-@start /wait atmelstudio.exe autobuild.cproj /rebuild release /out log.txt
+@start /wait atmelstudio.exe firmware.cproj /rebuild release /out log.txt
