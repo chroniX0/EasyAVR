@@ -28,7 +28,7 @@
 #include "scheduler.h"
 
 #define PRODUCT_STR_LEN (36)
-#define PRODUCT_STRING  L"EasyAVR Multimedia Keyboard v#.##.##"
+#define PRODUCT_STRING  L"CM QuickFire XT Ghost Squid v#.##.##"
 
 /* Must be 6 for boot-compliant keyboard,
    Must be 16 for NKRO */
