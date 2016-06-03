@@ -1,3 +1,5 @@
+// Edited to add Media Keys to OSX (Rewind & Fast Forward) in place of unneeded keys (bass & my computer)
+
 # EasyAVR
 Easy AVR USB Keyboard Firmware and Keymapper
 
