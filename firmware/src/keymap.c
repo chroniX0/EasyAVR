@@ -56,7 +56,7 @@ const uint16_t PROGMEM MEDIA_MAP[NUMBER_OF_MEDIA_KEYS] = {
 	/* SCANCODE_MUTE       */	SC_WIN_CP_MUTE,
 	/* SCANCODE_VOL_INC    */	SC_WIN_CP_VOL_INC,
 	/* SCANCODE_VOL_DEC    */	SC_WIN_CP_VOL_DEC,
-	/* SCANCODE_BASS_BOOST */	SC_WIN_CP_BASS_BOOST,
+	/* SCANCODE_FAST_FWD   */	SC_MAC_CP_FFW,
 	/* SCANCODE_NEXT_TRACK */	SC_WIN_CP_NEXT_TRACK,
 	/* SCANCODE_PREV_TRACK */	SC_WIN_CP_PREV_TRACK,
 	/* SCANCODE_STOP       */	SC_WIN_CP_STOP,
@@ -66,7 +66,7 @@ const uint16_t PROGMEM MEDIA_MAP[NUMBER_OF_MEDIA_KEYS] = {
 	/* SCANCODE_MEDIA      */	SC_WIN_CP_MEDIA,
 	/* SCANCODE_MAIL       */	SC_WIN_CP_MAIL,
 	/* SCANCODE_CALC       */	SC_WIN_CP_CALC,
-	/* SCANCODE_MYCOMP     */	SC_WIN_CP_MY_COMP,
+	/* SCANCODE_REWIND     */	SC_MAC_CP_REW,
 	/* SCANCODE_SEARCH     */	SC_WIN_CP_SEARCH,
 	/* SCANCODE_BROWSER    */	SC_WIN_CP_HOME
 };
@@ -767,7 +767,7 @@ void handle_code_actuate(const uint8_t code, const uint8_t action, const uint8_t
 	case SCANCODE_MUTE:
 	case SCANCODE_VOL_INC:
 	case SCANCODE_VOL_DEC:
-	case SCANCODE_BASS_BOOST:
+	case SCANCODE_FAST_FWD:
 	case SCANCODE_NEXT_TRACK:
 	case SCANCODE_PREV_TRACK:
 	case SCANCODE_STOP:
@@ -777,7 +777,7 @@ void handle_code_actuate(const uint8_t code, const uint8_t action, const uint8_t
 	case SCANCODE_MEDIA:
 	case SCANCODE_MAIL:
 	case SCANCODE_CALC:
-	case SCANCODE_MYCOMP:
+	case SCANCODE_REWIND:
 	case SCANCODE_SEARCH:
 	case SCANCODE_BROWSER:
 		set_media(code);
@@ -1018,7 +1018,7 @@ void handle_code_deactuate(const uint8_t code, const uint8_t action, const uint8
 	case SCANCODE_MUTE:
 	case SCANCODE_VOL_INC:
 	case SCANCODE_VOL_DEC:
-	case SCANCODE_BASS_BOOST:
+	case SCANCODE_FAST_FWD:
 	case SCANCODE_NEXT_TRACK:
 	case SCANCODE_PREV_TRACK:
 	case SCANCODE_STOP:
@@ -1028,7 +1028,7 @@ void handle_code_deactuate(const uint8_t code, const uint8_t action, const uint8
 	case SCANCODE_MEDIA:
 	case SCANCODE_MAIL:
 	case SCANCODE_CALC:
-	case SCANCODE_MYCOMP:
+	case SCANCODE_REWIND:
 	case SCANCODE_SEARCH:
 	case SCANCODE_BROWSER:
 		unset_media(code);
